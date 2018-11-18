@@ -8,8 +8,6 @@
 #include<sys/time.h>
 
 
-
-
 float* initializeMatrix(int width){
 	//Sets the matrix to random values between zero and ten
 	float* outputMatrix = malloc(width*width*sizeof(float)); //Give the matrix enough space to hold the necessary elements
